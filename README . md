@@ -1,0 +1,186 @@
+# Internship Portal - Week 2
+## Implementation of Responsive Web Design
+
+### 1. Task Objective
+
+The objective of this task is to create a responsive webpage that adapts smoothly to different device screen sizes, including desktop, tablet, and smartphone viewports.
+
+The Week 1 Internship Portal webpage was improved by using responsive HTML and CSS techniques.
+
+### 2. Project Overview
+
+The Internship Portal is a static webpage designed to provide students with information about internship opportunities.
+
+The webpage contains:
+
+- Navigation bar
+- Hero section
+- Explore Internships section
+- Internship cards
+- About Us section
+- How It Works section
+- Contact Us section
+- Footer
+
+The layout is designed to remain clear and usable on different screen sizes.
+
+### 3. Tools and Technologies
+
+The following tools and technologies were used:
+
+- HTML5
+- CSS3
+- Visual Studio Code
+- Integrated Browser
+- CSS Media Queries
+- Flexbox
+
+### 4. Layout Planning and Design
+
+The webpage layout was planned using separate sections.
+
+The navigation bar is placed at the top, followed by the hero section. Internship cards are arranged using Flexbox. Other sections are organized vertically to maintain a clear structure.
+
+The layout uses flexible widths, spacing, and wrapping so that content can adjust according to the available screen size.
+
+### 5. Semantic HTML Structure
+
+Semantic HTML elements were used to organize the webpage clearly.
+
+The main elements used include:
+
+- header
+- nav
+- section
+- footer
+- h1, h2 and h3 headings
+- p paragraphs
+- a links
+
+This makes the HTML structure easier to understand and maintain.
+
+### 6. CSS Responsive Implementation
+
+CSS was used to design the webpage and make it responsive.
+
+Flexbox was used to arrange navigation links, internship cards, and other content.
+
+The following CSS properties were used:
+
+- display: flex
+- flex-wrap
+- justify-content
+- align-items
+- max-width
+- padding
+- margin
+- box-sizing
+
+### 7. Media Queries
+
+A media query was added for smaller screens:
+
+@media (max-width: 768px)
+
+When the screen width becomes smaller, the webpage automatically changes its layout.
+
+The navigation changes to a vertical layout.
+
+The hero heading becomes smaller.
+
+The internship cards are arranged vertically.
+
+The cards use a flexible width so that they fit smaller screens.
+
+### 8. Desktop View
+
+On a desktop screen, the navigation links are displayed horizontally.
+
+The internship cards are displayed next to each other when enough screen space is available.
+
+The hero heading is larger and the content has more horizontal space.
+
+### 9. Tablet View
+
+On a tablet or medium-sized screen, the layout automatically adjusts according to the available width.
+
+The cards can wrap onto additional lines when required.
+
+The spacing and text sizes remain readable.
+
+### 10. Smartphone View
+
+On a smartphone-sized screen, the navigation links are displayed vertically.
+
+The hero heading becomes smaller.
+
+The internship cards are displayed one below another.
+
+This makes the content easier to read and use on a small screen.
+
+### 11. Testing
+
+The webpage was tested by reducing the browser window size.
+
+The desktop layout was first checked and then the browser window was made smaller to simulate tablet and smartphone screen sizes.
+
+The layout was observed to ensure that the navigation, headings, cards, and other sections adjusted properly.
+
+### 12. Challenges Faced
+
+Some challenges were faced while implementing responsive design.
+
+The main challenge was making the webpage fit smaller screens without causing content to overlap.
+
+Another challenge was maintaining readable text sizes and proper spacing on different screen widths.
+
+### 13. Solutions Adopted
+
+CSS Flexbox and media queries were used to solve the layout problems.
+
+The `flex-wrap` property allows cards to move to a new line when there is not enough space.
+
+The media query changes the navigation and card layout for smaller screens.
+
+Font sizes and widths were also adjusted for smaller devices.
+
+### 14. Evaluation and Result
+
+The project demonstrates the use of responsive web design techniques.
+
+The webpage successfully adapts to different screen sizes.
+
+The project includes:
+
+- Structured HTML
+- Organized CSS
+- Flexbox layout
+- Media queries
+- Responsive navigation
+- Responsive internship cards
+- Mobile-friendly layout
+
+### 15. Conclusion
+
+This project helped in understanding the practical implementation of responsive web design using HTML and CSS.
+
+The Internship Portal webpage was improved so that it can adapt to desktop, tablet, and smartphone screen sizes.
+
+Through this task, practical knowledge of CSS media queries, Flexbox, flexible layouts, semantic HTML, and responsive design principles was developed.
+
+## 16. Responsive Design Screenshots
+
+### Desktop View
+The webpage was tested on a desktop-sized screen.
+
+![Desktop View](desktop-view.png)
+
+### Tablet View
+The webpage was tested on a medium-sized screen to check tablet responsiveness.
+
+![Tablet View](tablet-view.png)
+
+### Mobile View
+The webpage was tested on a small screen to check smartphone responsiveness.
+
+![Mobile View](mobile-view.png)     
